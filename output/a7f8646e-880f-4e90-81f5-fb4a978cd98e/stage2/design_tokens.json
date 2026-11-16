@@ -1,6 +1,0 @@
-{
-  "genre": "business-report",
-  "theme_name": "business-modern",
-  "source": "design-token/tokens/compiled/business-report.json",
-  "note": "§2.5 硬约束覆盖：字体首项 SimSun、正文12pt、text-indent:2em；样式全 class 化 + var()"
-}
