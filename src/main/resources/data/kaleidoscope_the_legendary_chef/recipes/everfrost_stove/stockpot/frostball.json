@@ -1,0 +1,15 @@
+{
+  "type": "kaleidoscope_cookery:everfrost_stove",
+  "branch": "stockpot",
+  "carrier": [],
+  "base": "kaleidoscope_the_legendary_chef:powder_snow",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_the_legendary_chef:primordial_smoothie"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:frostball"
+  },
+  "time": 300
+}

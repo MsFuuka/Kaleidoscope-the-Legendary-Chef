@@ -1,0 +1,34 @@
+{
+  "everfrost_stove": {
+    "subtitle": "subtitles.kaleidoscope_the_legendary_chef.everfrost_stove",
+    "sounds": [
+      "kaleidoscope_the_legendary_chef:everfrost_stove"
+    ]
+  },
+  "freeze": {
+    "subtitle": "subtitles.kaleidoscope_the_legendary_chef.freeze",
+    "sounds": [
+      "kaleidoscope_the_legendary_chef:freeze_crack",
+      "kaleidoscope_the_legendary_chef:freeze_shatter",
+      "kaleidoscope_the_legendary_chef:freeze_chime"
+    ]
+  },
+  "frozen": {
+    "subtitle": "subtitles.kaleidoscope_the_legendary_chef.frozen",
+    "sounds": [
+      "kaleidoscope_the_legendary_chef:frozen"
+    ]
+  },
+  "mallet_smash": {
+    "subtitle": "subtitles.kaleidoscope_the_legendary_chef.mallet_smash",
+    "sounds": [
+      "kaleidoscope_the_legendary_chef:mallet_smash"
+    ]
+  },
+  "totem_hit": {
+    "subtitle": "subtitles.kaleidoscope_the_legendary_chef.totem_hit",
+    "sounds": [
+      "kaleidoscope_the_legendary_chef:totem_hit"
+    ]
+  }
+}

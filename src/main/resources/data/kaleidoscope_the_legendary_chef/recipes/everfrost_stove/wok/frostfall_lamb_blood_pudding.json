@@ -1,0 +1,32 @@
+{
+  "type": "kaleidoscope_cookery:everfrost_stove",
+  "branch": "wok",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:raw_mutton"
+    },
+    {
+      "tag": "forge:raw_mutton"
+    },
+    {
+      "tag": "forge:raw_mutton"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:frostbite_pepper"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:frostfall_lamb_blood_pudding"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

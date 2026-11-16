@@ -1,0 +1,40 @@
+{
+  "itemGroup.kaleidoscope_the_legendary_chef.main": "森罗物语：传说主厨",
+
+  "block.kaleidoscope_the_legendary_chef.everfrost_stove": "永冻炉灶",
+  "block.kaleidoscope_the_legendary_chef.frostbite_pepper_crop": "霜冻辣椒",
+  "block.kaleidoscope_the_legendary_chef.frozen_mallet": "臻棒冰",
+  "block.kaleidoscope_the_legendary_chef.large_ice_crystal_bud": "大型始冰晶芽",
+  "block.kaleidoscope_the_legendary_chef.pillar_of_pinnacle_ice": "臻冰柱",
+  "block.kaleidoscope_the_legendary_chef.primal_ice_block": "始冰块",
+  "block.kaleidoscope_the_legendary_chef.primal_ice_crystal_cluster": "始冰晶簇",
+  "block.kaleidoscope_the_legendary_chef.primordial_smoothie": "始源冰沙",
+  "block.kaleidoscope_the_legendary_chef.small_ice_crystal_bud": "小型始冰晶芽",
+  "block.kaleidoscope_the_legendary_chef.xiling_green": "西岭青",
+
+  "item.kaleidoscope_the_legendary_chef.frostball": "霜球",
+  "item.kaleidoscope_the_legendary_chef.frostbite_pepper": "霜冻辣椒",
+  "item.kaleidoscope_the_legendary_chef.primordial_smoothie": "始源冰沙",
+  "item.kaleidoscope_the_legendary_chef.primordial_smoothie_bucket": "始源冰沙桶",
+  "item.kaleidoscope_the_legendary_chef.a_song_of_ice_and_fire": "冰与火之歌",
+  "item.kaleidoscope_the_legendary_chef.frostfall_lamb_blood_pudding": "霜降羊血布丁",
+  "item.kaleidoscope_the_legendary_chef.frozen_mallet": "臻冰棒",
+  "item.kaleidoscope_the_legendary_chef.everfrost_stove": "永冻炉灶",
+  "item.kaleidoscope_the_legendary_chef.primal_ice_block": "始冰块",
+  "item.kaleidoscope_the_legendary_chef.small_ice_crystal_bud": "小型始冰晶芽",
+  "item.kaleidoscope_the_legendary_chef.large_ice_crystal_bud": "大型始冰晶芽",
+  "item.kaleidoscope_the_legendary_chef.primal_ice_crystal_cluster": "始冰晶簇",
+  "item.kaleidoscope_the_legendary_chef.totem_of_winter": "凛冬图腾",
+  "item.kaleidoscope_the_legendary_chef.xiling_green": "西岭青",
+  "item.kaleidoscope_the_legendary_chef.xiling_green_tea_bag": "西岭青茶包",
+
+  "entity.kaleidoscope_the_legendary_chef.totem_of_winter": "凛冬图腾",
+
+  "subtitles.kaleidoscope_the_legendary_chef.everfrost_stove": "低鸣",
+  "subtitles.kaleidoscope_the_legendary_chef.freeze": "结冰",
+  "subtitles.kaleidoscope_the_legendary_chef.frozen": "冻结",
+  "subtitles.kaleidoscope_the_legendary_chef.mallet_smash": "棒击",
+  "subtitles.kaleidoscope_the_legendary_chef.totem_hit": "碎裂",
+
+  "tooltip.kaleidoscope_the_legendary_chef.xiling_green.maxim": "来自西岭的一抹青色"
+}

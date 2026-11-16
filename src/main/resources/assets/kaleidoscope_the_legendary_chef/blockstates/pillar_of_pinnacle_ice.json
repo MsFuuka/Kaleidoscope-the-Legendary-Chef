@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    },
+    "rotation=1": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    },
+    "rotation=2": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    },
+    "rotation=3": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    },
+    "rotation=4": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    },
+    "rotation=5": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    },
+    "rotation=6": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    },
+    "rotation=7": {
+      "model": "kaleidoscope_the_legendary_chef:block/pillar_of_pinnacle_ice"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/everfrost_stove"
+    },
+    "facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/everfrost_stove",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/everfrost_stove",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/everfrost_stove",
+      "y": 270
+    }
+  }
+}

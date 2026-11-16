@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "kaleidoscope_the_legendary_chef:block/primal_ice_crystal_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/primal_ice_crystal_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/primal_ice_crystal_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/primal_ice_crystal_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "kaleidoscope_the_legendary_chef:block/primal_ice_crystal_cluster"
+    },
+    "facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/primal_ice_crystal_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

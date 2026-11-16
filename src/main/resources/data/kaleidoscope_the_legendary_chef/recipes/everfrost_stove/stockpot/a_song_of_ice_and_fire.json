@@ -1,0 +1,35 @@
+{
+  "type": "kaleidoscope_cookery:everfrost_stove",
+  "branch": "stockpot",
+  "carrier": {
+    "item": "kaleidoscope_cookery:stockpot"
+  },
+  "base": "kaleidoscope_the_legendary_chef:primordial_smoothie",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:frostbite_pepper"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:frostbite_pepper"
+    },
+    {
+      "item": "kaleidoscope_cookery:raw_cut_small_meats"
+    },
+    {
+      "item": "kaleidoscope_cookery:raw_cut_small_meats"
+    },
+    {
+      "item": "kaleidoscope_cookery:raw_cut_small_meats"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:a_song_of_ice_and_fire"
+  },
+  "time": 300
+}

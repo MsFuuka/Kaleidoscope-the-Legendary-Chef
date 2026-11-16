@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "S#S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:snowball"
+    },
+    "#": {
+      "item": "kaleidoscope_the_legendary_chef:primordial_smoothie"
+    }
+  },
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:frostball",
+    "count": 8
+  }
+}

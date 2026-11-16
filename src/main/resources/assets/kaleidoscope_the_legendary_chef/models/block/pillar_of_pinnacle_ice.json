@@ -1,0 +1,22 @@
+{
+  "credit": "Pillar of Pinnacle Ice; geometry drawn via PillarOfPinnacleIceBlockRenderer",
+  "parent": "block/block",
+  "textures": {
+    "particle": "minecraft:block/packed_ice",
+    "blade": "minecraft:block/packed_ice"
+  },
+  "elements": [
+    {
+      "from": [4, 0, 6],
+      "to": [12, 16, 10],
+      "faces": {
+        "down":  {"texture": "#blade", "uv": [4, 6, 12, 10]},
+        "up":    {"texture": "#blade", "uv": [4, 6, 12, 10]},
+        "north": {"texture": "#blade", "uv": [4, 0, 12, 16]},
+        "south": {"texture": "#blade", "uv": [4, 0, 12, 16]},
+        "west":  {"texture": "#blade", "uv": [6, 0, 10, 16]},
+        "east":  {"texture": "#blade", "uv": [6, 0, 10, 16]}
+      }
+    }
+  ]
+}

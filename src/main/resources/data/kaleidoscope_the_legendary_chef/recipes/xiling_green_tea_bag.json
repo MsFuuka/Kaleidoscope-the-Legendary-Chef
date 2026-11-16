@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "kaleidoscope_cookery:dried_tea_leaves"
+    },
+    "B": {
+      "item": "kaleidoscope_the_legendary_chef:primordial_smoothie"
+    },
+    "C": {
+      "item": "kaleidoscope_the_legendary_chef:frostbite_pepper"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "ACA"
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:xiling_green_tea_bag"
+  },
+  "show_notification": true
+}

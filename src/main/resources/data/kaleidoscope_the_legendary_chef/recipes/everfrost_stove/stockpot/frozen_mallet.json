@@ -1,0 +1,41 @@
+{
+  "type": "kaleidoscope_cookery:everfrost_stove",
+  "branch": "stockpot",
+  "carrier": {
+    "item": "minecraft:iron_sword"
+  },
+  "base": "kaleidoscope_the_legendary_chef:primordial_smoothie",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "legendary_monsters:primal_ice_shard"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:frozen_mallet"
+  },
+  "time": 300
+}

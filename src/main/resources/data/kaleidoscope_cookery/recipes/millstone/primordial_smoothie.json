@@ -1,0 +1,10 @@
+{
+  "type": "kaleidoscope_cookery:millstone",
+  "ingredient": {
+    "item": "legendary_monsters:primal_ice_shard"
+  },
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:primordial_smoothie",
+    "count": 2
+  }
+}

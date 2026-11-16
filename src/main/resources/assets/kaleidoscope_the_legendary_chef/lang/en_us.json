@@ -1,0 +1,40 @@
+{
+  "itemGroup.kaleidoscope_the_legendary_chef.main": "Kaleidoscope：the Legendary Chef",
+
+  "block.kaleidoscope_the_legendary_chef.everfrost_stove": "Everfrost Stove",
+  "block.kaleidoscope_the_legendary_chef.frostbite_pepper_crop": "Frostbite Pepper Crop",
+  "block.kaleidoscope_the_legendary_chef.frozen_mallet": "Frozen Mallet",
+  "block.kaleidoscope_the_legendary_chef.large_ice_crystal_bud": "Large Ice Crystal Bud",
+  "block.kaleidoscope_the_legendary_chef.pillar_of_pinnacle_ice": "Pillar of Pinnacle Ice",
+  "block.kaleidoscope_the_legendary_chef.primal_ice_block": "Primal Ice Block",
+  "block.kaleidoscope_the_legendary_chef.primal_ice_crystal_cluster": "Primal Ice Crystal Cluster",
+  "block.kaleidoscope_the_legendary_chef.primordial_smoothie": "Primordial Smoothie",
+  "block.kaleidoscope_the_legendary_chef.small_ice_crystal_bud": "Small Ice Crystal Bud",
+  "block.kaleidoscope_the_legendary_chef.xiling_green": "Xiling Green Tea",
+
+  "item.kaleidoscope_the_legendary_chef.frostball": "Frostball",
+  "item.kaleidoscope_the_legendary_chef.frostbite_pepper": "Frostbite Pepper",
+  "item.kaleidoscope_the_legendary_chef.primordial_smoothie": "Primordial Smoothie",
+  "item.kaleidoscope_the_legendary_chef.primordial_smoothie_bucket": "Primordial Smoothie Bucket",
+  "item.kaleidoscope_the_legendary_chef.a_song_of_ice_and_fire": "A Song of Ice and Fire",
+  "item.kaleidoscope_the_legendary_chef.frostfall_lamb_blood_pudding": "Frostfall Lamb Blood Pudding",
+  "item.kaleidoscope_the_legendary_chef.frozen_mallet": "Frozen Mallet",
+  "item.kaleidoscope_the_legendary_chef.everfrost_stove": "Everfrost Stove",
+  "item.kaleidoscope_the_legendary_chef.primal_ice_block": "Primal Ice Block",
+  "item.kaleidoscope_the_legendary_chef.small_ice_crystal_bud": "Small Ice Crystal Bud",
+  "item.kaleidoscope_the_legendary_chef.large_ice_crystal_bud": "Large Ice Crystal Bud",
+  "item.kaleidoscope_the_legendary_chef.primal_ice_crystal_cluster": "Primal Ice Crystal Cluster",
+  "item.kaleidoscope_the_legendary_chef.totem_of_winter": "Totem of Winter",
+  "item.kaleidoscope_the_legendary_chef.xiling_green": "Xiling Green Tea",
+  "item.kaleidoscope_the_legendary_chef.xiling_green_tea_bag": "Xiling Green Tea Bag",
+
+  "entity.kaleidoscope_the_legendary_chef.totem_of_winter": "Totem of Winter",
+
+  "subtitles.kaleidoscope_the_legendary_chef.everfrost_stove": "Everfrost Stove hums",
+  "subtitles.kaleidoscope_the_legendary_chef.freeze": "Ice forms",
+  "subtitles.kaleidoscope_the_legendary_chef.frozen": "Freezing",
+  "subtitles.kaleidoscope_the_legendary_chef.mallet_smash": "Mallet smashes",
+  "subtitles.kaleidoscope_the_legendary_chef.totem_hit": "Totem of Winter cracks",
+
+  "tooltip.kaleidoscope_the_legendary_chef.xiling_green.maxim": "A refreshing green tea from the western ridge."
+}

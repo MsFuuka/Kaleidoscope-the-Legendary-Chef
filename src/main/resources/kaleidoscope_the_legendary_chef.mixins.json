@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.MsFuuka.kaleidoscope_the_legendary_chef.mixin",
+  "refmap": "kaleidoscope_the_legendary_chef.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PotBlockEntityMixin",
+    "PotBlockMixin",
+    "StockpotBlockEntityMixin",
+    "CropBlockRandomTickMixin",
+    "FreezeMixin",
+    "FrozenMalletAttackMixin"
+  ],
+  "client": [
+    "StockpotBlockEntityRendererMixin",
+    "LocalPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

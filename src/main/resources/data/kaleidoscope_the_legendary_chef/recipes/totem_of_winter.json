@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "BCB",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "legendary_monsters:frozen_rune"
+    },
+    "B": {
+      "item": "legendary_monsters:primal_ice_shard"
+    },
+    "C": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:totem_of_winter",
+    "count": 1
+  }
+}
