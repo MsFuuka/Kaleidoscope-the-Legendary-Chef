@@ -6,6 +6,7 @@ import com.github.ysbbbbbb.kaleidoscopecookery.api.blockentity.IPot;
 import com.github.ysbbbbbb.kaleidoscopecookery.block.kitchen.PotBlock;
 import com.github.ysbbbbbb.kaleidoscopecookery.blockentity.kitchen.PotBlockEntity;
 import com.github.ysbbbbbb.kaleidoscopecookery.crafting.recipe.PotRecipe;
+import com.github.ysbbbbbb.kaleidoscopecookery.advancements.critereon.ModEventTrigger;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.crafting.EverfrostStoveRecipe;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModRecipes;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModTags;
@@ -23,6 +24,7 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.gen.Invoker;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
@@ -105,6 +107,16 @@ public abstract class PotBlockEntityMixin {
         double z = pos.getZ() + 0.5;
         server.sendParticles(ParticleTypes.SNOWFLAKE, x, y, z, 14, 0.35, 0.15, 0.35, 0.05);
         server.sendParticles(ParticleTypes.SMOKE, x, y - 0.05, z, 3, 0.2, 0.1, 0.2, 0.01);
+    }
+
+    @Redirect(method = {"onPlaceOil", "onShovelHit", "takeOutWithoutCarrier", "takeOutWithCarrier", "removeIngredient"},
+            at = @At(value = "INVOKE", target = "Lcom/github/ysbbbbbb/kaleidoscopecookery/advancements/critereon/ModEventTrigger;trigger(Lnet/minecraft/world/entity/LivingEntity;Ljava/lang/String;)V"),
+            remap = false)
+    private void everfrost$skipAdvancement(ModEventTrigger trigger, LivingEntity entity, String event) {
+        PotBlockEntity pot = (PotBlockEntity) (Object) this;
+        if (!everfrost$isEverfrostPot(pot)) {
+            trigger.trigger(entity, event);
+        }
     }
 
     @Unique

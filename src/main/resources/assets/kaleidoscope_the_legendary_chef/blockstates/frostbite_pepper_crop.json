@@ -1,28 +1,28 @@
 {
   "variants": {
     "age=0": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_first"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_first"
     },
     "age=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_second"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_second"
     },
     "age=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_third"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_third"
     },
     "age=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_fourth"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_fourth"
     },
     "age=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_fifth"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_fifth"
     },
     "age=5": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_sixth"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_sixth"
     },
     "age=6": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_seventh"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_seventh"
     },
     "age=7": {
-      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper_stage_seventh"
+      "model": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_seventh"
     }
   }
 }

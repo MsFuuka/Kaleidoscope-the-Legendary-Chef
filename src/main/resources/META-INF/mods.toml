@@ -50,3 +50,10 @@ mandatory = true
 versionRange = "${required_lib_version_range}"
 ordering = "AFTER"
 side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "curios"
+mandatory = true
+versionRange = "${required_curios_version_range}"
+ordering = "AFTER"
+side = "BOTH"

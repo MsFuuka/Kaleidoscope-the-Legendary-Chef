@@ -1,243 +1,243 @@
 {
   "variants": {
     "cup_count=1,facing=north,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one"
     },
     "cup_count=1,facing=east,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 90
     },
     "cup_count=1,facing=south,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 180
     },
     "cup_count=1,facing=west,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 270
     },
     "cup_count=1,facing=north,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one"
     },
     "cup_count=1,facing=east,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 90
     },
     "cup_count=1,facing=south,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 180
     },
     "cup_count=1,facing=west,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 270
     },
     "cup_count=1,facing=north,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one"
     },
     "cup_count=1,facing=east,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 90
     },
     "cup_count=1,facing=south,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 180
     },
     "cup_count=1,facing=west,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 270
     },
     "cup_count=1,facing=north,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one"
     },
     "cup_count=1,facing=east,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 90
     },
     "cup_count=1,facing=south,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 180
     },
     "cup_count=1,facing=west,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one",
       "y": 270
     },
     "cup_count=2,facing=north,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_one"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_one"
     },
     "cup_count=2,facing=east,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_one",
       "y": 90
     },
     "cup_count=2,facing=south,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_one",
       "y": 180
     },
     "cup_count=2,facing=west,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_one",
       "y": 270
     },
     "cup_count=2,facing=north,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two"
     },
     "cup_count=2,facing=east,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 90
     },
     "cup_count=2,facing=south,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 180
     },
     "cup_count=2,facing=west,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 270
     },
     "cup_count=2,facing=north,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two"
     },
     "cup_count=2,facing=east,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 90
     },
     "cup_count=2,facing=south,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 180
     },
     "cup_count=2,facing=west,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 270
     },
     "cup_count=2,facing=north,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two"
     },
     "cup_count=2,facing=east,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 90
     },
     "cup_count=2,facing=south,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 180
     },
     "cup_count=2,facing=west,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two",
       "y": 270
     },
     "cup_count=3,facing=north,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_two"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_two"
     },
     "cup_count=3,facing=east,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_two",
       "y": 90
     },
     "cup_count=3,facing=south,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_two",
       "y": 180
     },
     "cup_count=3,facing=west,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_one_empty_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_one_empty_two",
       "y": 270
     },
     "cup_count=3,facing=north,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_one"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_one"
     },
     "cup_count=3,facing=east,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_one",
       "y": 90
     },
     "cup_count=3,facing=south,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_one",
       "y": 180
     },
     "cup_count=3,facing=west,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_one",
       "y": 270
     },
     "cup_count=3,facing=north,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three"
     },
     "cup_count=3,facing=east,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three",
       "y": 90
     },
     "cup_count=3,facing=south,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three",
       "y": 180
     },
     "cup_count=3,facing=west,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three",
       "y": 270
     },
     "cup_count=3,facing=north,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three"
     },
     "cup_count=3,facing=east,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three",
       "y": 90
     },
     "cup_count=3,facing=south,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three",
       "y": 180
     },
     "cup_count=3,facing=west,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three",
       "y": 270
     },
     "cup_count=4,facing=north,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_empty_three"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_empty_three"
     },
     "cup_count=4,facing=east,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_empty_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_empty_three",
       "y": 90
     },
     "cup_count=4,facing=south,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_empty_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_empty_three",
       "y": 180
     },
     "cup_count=4,facing=west,tea_count=1": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_empty_three",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_empty_three",
       "y": 270
     },
     "cup_count=4,facing=north,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_two"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_two"
     },
     "cup_count=4,facing=east,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_two",
       "y": 90
     },
     "cup_count=4,facing=south,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_two",
       "y": 180
     },
     "cup_count=4,facing=west,tea_count=2": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_two_empty_two",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_two_empty_two",
       "y": 270
     },
     "cup_count=4,facing=north,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three_empty_one"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three_empty_one"
     },
     "cup_count=4,facing=east,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three_empty_one",
       "y": 90
     },
     "cup_count=4,facing=south,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three_empty_one",
       "y": 180
     },
     "cup_count=4,facing=west,tea_count=3": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_three_empty_one",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_three_empty_one",
       "y": 270
     },
     "cup_count=4,facing=north,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_four"
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_four"
     },
     "cup_count=4,facing=east,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_four",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_four",
       "y": 90
     },
     "cup_count=4,facing=south,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_four",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_four",
       "y": 180
     },
     "cup_count=4,facing=west,tea_count=4": {
-      "model": "kaleidoscope_the_legendary_chef:block/teacup/xiling_green/xiling_green_full_four",
+      "model": "kaleidoscope_the_legendary_chef:block/xiling_green/xiling_green_full_four",
       "y": 270
     }
   }

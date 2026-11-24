@@ -13,6 +13,12 @@
       "kaleidoscope_the_legendary_chef:freeze_chime"
     ]
   },
+  "ice_burst": {
+    "subtitle": "subtitles.kaleidoscope_the_legendary_chef.ice_burst",
+    "sounds": [
+      "kaleidoscope_the_legendary_chef:ice_burst"
+    ]
+  },
   "frozen": {
     "subtitle": "subtitles.kaleidoscope_the_legendary_chef.frozen",
     "sounds": [

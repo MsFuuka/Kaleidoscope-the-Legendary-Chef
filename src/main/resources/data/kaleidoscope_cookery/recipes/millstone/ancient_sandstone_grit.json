@@ -1,0 +1,9 @@
+{
+  "type": "kaleidoscope_cookery:millstone",
+  "ingredient": {
+    "item": "legendary_monsters:ancient_sandstone_shard"
+  },
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:ancient_sandstone_grit"
+  }
+}

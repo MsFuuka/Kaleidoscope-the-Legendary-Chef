@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_the_legendary_chef:crushed_moss"
+    },
+    {
+      "item": "kaleidoscope_cookery:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:mossy_sweet_dough"
+  }
+}

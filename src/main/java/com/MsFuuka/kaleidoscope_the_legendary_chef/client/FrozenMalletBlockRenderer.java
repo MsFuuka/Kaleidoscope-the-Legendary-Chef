@@ -56,6 +56,6 @@ public final class FrozenMalletBlockRenderer implements BlockEntityRenderer<Froz
     }
 
     private static ResourceLocation id(String path) {
-        return ResourceLocation.fromNamespaceAndPath(KaleidoscopeTheLegendaryChef.MODID, "block/" + path);
+        return ResourceLocation.fromNamespaceAndPath(KaleidoscopeTheLegendaryChef.MODID, "block/frozen_mallet/" + path);
     }
 }

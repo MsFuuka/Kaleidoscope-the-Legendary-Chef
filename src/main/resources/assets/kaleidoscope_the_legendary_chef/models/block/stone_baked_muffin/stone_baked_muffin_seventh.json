@@ -1,0 +1,59 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [36, 36],
+	"textures": {
+		"particle": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_down",
+		"seventh": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin"
+	},
+	"elements": [
+		{
+			"from": [1, 2.1, 0],
+			"to": [15, 2.1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 2.1, 7]},
+			"faces": {
+				"up": {"uv": [0, 0, 6.22222, 7.11111], "rotation": 180, "texture": "#seventh"},
+				"down": {"uv": [0, 0, 6.22222, 7.11111], "texture": "#seventh"}
+			}
+		},
+		{
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [8.88889, 0.44444, 8, 6.66667], "rotation": 90, "texture": "#seventh"},
+				"east": {"uv": [8.88889, 0.44444, 8, 6.66667], "rotation": 90, "texture": "#seventh"},
+				"south": {"uv": [8.88889, 6.66667, 8, 0.44444], "rotation": 90, "texture": "#seventh"},
+				"west": {"uv": [8.88889, 0.44444, 8, 6.66667], "rotation": 90, "texture": "#seventh"},
+				"up": {"uv": [9.33333, 0.44444, 15.55556, 6.66667], "texture": "#seventh"},
+				"down": {"uv": [9.33333, 0.44444, 15.55556, 6.66667], "texture": "#seventh", "cullface": "down"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "stone_baked_muffin",
+			"origin": [6, 0, 9],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "moss",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 7,
+					"children": []
+				},
+				{
+					"name": "pancake",
+					"origin": [6, 0, 9],
+					"scope": 0,
+					"color": 6,
+					"children": []
+				},
+				0,
+				1
+			]
+		}
+	]
+}

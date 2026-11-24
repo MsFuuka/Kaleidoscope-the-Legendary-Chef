@@ -7,6 +7,7 @@ import com.MsFuuka.kaleidoscope_the_legendary_chef.crafting.EverfrostStoveRecipe
 import com.MsFuuka.kaleidoscope_the_legendary_chef.integration.StockpotCarrierAccess;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModItems;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModTags;
+import com.github.ysbbbbbb.kaleidoscopecookery.advancements.critereon.ModEventTrigger;
 import com.github.ysbbbbbb.kaleidoscopecookery.blockentity.kitchen.StockpotBlockEntity;
 import com.github.ysbbbbbb.kaleidoscopecookery.crafting.container.StockpotContainer;
 import com.github.ysbbbbbb.kaleidoscopecookery.crafting.recipe.FlexStockpotRecipe;
@@ -120,6 +121,17 @@ public abstract class StockpotBlockEntityMixin implements StockpotCarrierAccess 
             return;
         }
         instance.playSound(player, x, y, z, sound, category, volume, pitch);
+    }
+
+    @Redirect(method = {"onLitClick", "removeIngredient"},
+            at = @At(value = "INVOKE", target = "Lcom/github/ysbbbbbb/kaleidoscopecookery/advancements/critereon/ModEventTrigger;trigger(Lnet/minecraft/world/entity/LivingEntity;Ljava/lang/String;)V"),
+            remap = false)
+    private void everfrost$skipAdvancement(ModEventTrigger trigger, LivingEntity entity, String event) {
+        StockpotBlockEntity pot = (StockpotBlockEntity) (Object) this;
+        Level level = pot.getLevel();
+        if (level == null || !level.getBlockState(pot.getBlockPos().below()).is(ModTags.COLD_SOURCE)) {
+            trigger.trigger(entity, event);
+        }
     }
 
     @Inject(method = "getRecipeById(Lnet/minecraft/world/level/Level;Lnet/minecraft/resources/ResourceLocation;)Lcom/mojang/datafixers/util/Either;",

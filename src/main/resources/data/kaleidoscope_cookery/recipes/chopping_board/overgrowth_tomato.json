@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_cookery:chopping_board",
+  "cut_count": 4,
+  "ingredient": {
+    "item": "kaleidoscope_the_legendary_chef:overgrowth_tomato"
+  },
+  "model_id": "kaleidoscope_the_legendary_chef:overgrowth_tomato",
+  "result": [
+    {
+      "count": 3,
+      "item": "kaleidoscope_the_legendary_chef:overgrowth_tomato_slice"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:overgrowth_tomato_seeds"
+    }
+  ]
+}

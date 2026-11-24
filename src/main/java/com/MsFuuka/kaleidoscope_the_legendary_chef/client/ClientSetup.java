@@ -23,19 +23,23 @@ public final class ClientSetup {
     @SuppressWarnings({"removal", "deprecation"})
     public static void onClientSetup(FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FROSTBITE_PEPPER_CROP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.OVERGROWTH_TOMATO_CROP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TENDER_GREEN_MOSS_CROP.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LARGE_ICE_CRYSTAL_BUD.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PRIMAL_ICE_CRYSTAL_CLUSTER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SMALL_ICE_CRYSTAL_BUD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MOSSY_SWISS_ROLL.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.STONE_BAKED_MUFFIN.get(), RenderType.cutout());
     }
 
     @SubscribeEvent
     public static void onRegisterAdditional(ModelEvent.RegisterAdditional event) {
-        event.register(id("block/frozen_mallet"));
-        event.register(id("block/frozen_mallet_first"));
-        event.register(id("block/frozen_mallet_second"));
-        event.register(id("block/frozen_mallet_third"));
-        event.register(id("block/frozen_mallet_fourth"));
-        event.register(id("block/frozen_mallet_fifth"));
+        event.register(id("block/frozen_mallet/frozen_mallet"));
+        event.register(id("block/frozen_mallet/frozen_mallet_first"));
+        event.register(id("block/frozen_mallet/frozen_mallet_second"));
+        event.register(id("block/frozen_mallet/frozen_mallet_third"));
+        event.register(id("block/frozen_mallet/frozen_mallet_fourth"));
+        event.register(id("block/frozen_mallet/frozen_mallet_fifth"));
     }
 
     @SubscribeEvent

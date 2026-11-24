@@ -3,12 +3,16 @@ package com.MsFuuka.kaleidoscope_the_legendary_chef.registry;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.KaleidoscopeTheLegendaryChef;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.EverfrostStoveBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.FrostbitePepperCropBlock;
+import com.MsFuuka.kaleidoscope_the_legendary_chef.block.OvergrowthTomatoCropBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.FrozenMalletBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.IceCrystalBudBlock;
+import com.MsFuuka.kaleidoscope_the_legendary_chef.block.MossySwissRollBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.PillarOfPinnacleIceBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.PrimalIceBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.PrimalIceCrystalClusterBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.PrimordialSmoothieBlock;
+import com.MsFuuka.kaleidoscope_the_legendary_chef.block.StoneBakedMuffinBlock;
+import com.MsFuuka.kaleidoscope_the_legendary_chef.block.TenderGreenMossCropBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.WinterPowderSnowBlock;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.block.XilingGreenBlock;
 import net.minecraft.world.level.block.Block;
@@ -62,8 +66,26 @@ public final class ModBlocks {
                     .sound(SoundType.CROP)
                     .pushReaction(PushReaction.DESTROY)));
 
+    public static final RegistryObject<Block> OVERGROWTH_TOMATO_CROP = BLOCKS.register("overgrowth_tomato_crop",
+            () -> new OvergrowthTomatoCropBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)
+                    .pushReaction(PushReaction.DESTROY)));
+
     public static final RegistryObject<PrimordialSmoothieBlock> PRIMORDIAL_SMOOTHIE = BLOCKS.register("primordial_smoothie",
             () -> new PrimordialSmoothieBlock(BlockBehaviour.Properties.copy(Blocks.POWDER_SNOW).forceSolidOn().noLootTable()));
+
+    public static final RegistryObject<Block> TENDER_GREEN_MOSS_CROP = BLOCKS.register("tender_green_moss_crop",
+            () -> new TenderGreenMossCropBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.PLANT)
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)
+                    .pushReaction(PushReaction.DESTROY)));
 
     public static final RegistryObject<Block> XILING_GREEN = BLOCKS.register("xiling_green",
             () -> new XilingGreenBlock(BlockBehaviour.Properties.of()
@@ -72,6 +94,22 @@ public final class ModBlocks {
                     .sound(SoundType.GLASS)
                     .pushReaction(PushReaction.DESTROY)
                     .noOcclusion()));
+
+    public static final RegistryObject<Block> MOSSY_SWISS_ROLL = BLOCKS.register("mossy_swiss_roll",
+            () -> new MossySwissRollBlock(BlockBehaviour.Properties.of()
+                    .strength(0.5F)
+                    .mapColor(MapColor.PLANT)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY)));
+
+    public static final RegistryObject<Block> STONE_BAKED_MUFFIN = BLOCKS.register("stone_baked_muffin",
+            () -> new StoneBakedMuffinBlock(BlockBehaviour.Properties.of()
+                    .strength(0.5F)
+                    .mapColor(MapColor.PLANT)
+                    .sound(SoundType.STONE)
+                    .noOcclusion()
+                    .pushReaction(PushReaction.DESTROY)));
 
     private ModBlocks() {
     }

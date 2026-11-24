@@ -1,0 +1,31 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:stone_brick_slab"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:mossy_sweet_dough"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:mossy_sweet_dough"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:mossy_sweet_dough"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:mossy_sweet_dough"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:stone_baked_muffin"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kaleidoscope_the_legendary_chef:item/plate_of_bomber_steamed_buns"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "variants": {
+    "bite=0,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_first"
+    },
+    "bite=0,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_first",
+      "y": 90
+    },
+    "bite=0,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_first",
+      "y": 180
+    },
+    "bite=0,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_first",
+      "y": 270
+    },
+    "bite=1,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_second"
+    },
+    "bite=1,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_second",
+      "y": 90
+    },
+    "bite=1,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_second",
+      "y": 180
+    },
+    "bite=1,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_second",
+      "y": 270
+    },
+    "bite=2,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_third"
+    },
+    "bite=2,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_third",
+      "y": 90
+    },
+    "bite=2,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_third",
+      "y": 180
+    },
+    "bite=2,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_third",
+      "y": 270
+    },
+    "bite=3,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fourth"
+    },
+    "bite=3,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fourth",
+      "y": 90
+    },
+    "bite=3,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fourth",
+      "y": 180
+    },
+    "bite=3,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fourth",
+      "y": 270
+    },
+    "bite=4,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fifth"
+    },
+    "bite=4,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fifth",
+      "y": 90
+    },
+    "bite=4,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fifth",
+      "y": 180
+    },
+    "bite=4,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_fifth",
+      "y": 270
+    },
+    "bite=5,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_sixth"
+    },
+    "bite=5,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_sixth",
+      "y": 90
+    },
+    "bite=5,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_sixth",
+      "y": 180
+    },
+    "bite=5,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_sixth",
+      "y": 270
+    },
+    "bite=6,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_seventh"
+    },
+    "bite=6,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_seventh",
+      "y": 90
+    },
+    "bite=6,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_seventh",
+      "y": 180
+    },
+    "bite=6,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/stone_baked_muffin/stone_baked_muffin_seventh",
+      "y": 270
+    }
+  }
+}

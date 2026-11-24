@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_fifth"
+  }
+}

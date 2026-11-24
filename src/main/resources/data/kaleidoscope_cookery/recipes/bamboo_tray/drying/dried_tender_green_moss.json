@@ -1,0 +1,11 @@
+{
+  "type": "kaleidoscope_cookery:bamboo_tray",
+  "duration": 1800,
+  "ingredient": {
+    "item": "kaleidoscope_the_legendary_chef:tender_green_moss"
+  },
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:dried_tender_green_moss"
+  },
+  "subtype": "drying"
+}

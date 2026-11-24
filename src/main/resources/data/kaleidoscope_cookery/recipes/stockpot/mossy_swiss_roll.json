@@ -1,0 +1,26 @@
+{
+  "type": "kaleidoscope_cookery:stockpot",
+  "carrier": {
+    "item": "minecraft:stone_brick_slab"
+  },
+  "cooking_bubble_color": 16772291,
+  "cooking_texture": "kaleidoscope_cookery:stockpot/default_cooking",
+  "finished_bubble_color": 16034443,
+  "finished_texture": "kaleidoscope_cookery:stockpot/default_finished",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_the_legendary_chef:mossy_sweet_dough"
+    },
+    {
+      "item": "kaleidoscope_the_legendary_chef:mossy_sweet_dough"
+    },
+    {
+      "item": "minecraft:spore_blossom"
+    }
+  ],
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:mossy_swiss_roll"
+  },
+  "soup_base": "minecraft:milk",
+  "time": 300
+}

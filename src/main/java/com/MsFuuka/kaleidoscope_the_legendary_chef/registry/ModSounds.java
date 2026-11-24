@@ -14,6 +14,7 @@ public final class ModSounds {
 
     public static final RegistryObject<SoundEvent> EVERFROST_STOVE = register("everfrost_stove");
     public static final RegistryObject<SoundEvent> FREEZE = register("freeze");
+    public static final RegistryObject<SoundEvent> ICE_BURST = register("ice_burst");
     public static final RegistryObject<SoundEvent> FROZEN = register("frozen");
     public static final RegistryObject<SoundEvent> MALLET_SMASH = register("mallet_smash");
     public static final RegistryObject<SoundEvent> TOTEM_HIT = register("totem_hit");

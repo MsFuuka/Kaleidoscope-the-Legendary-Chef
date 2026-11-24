@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "legendary_monsters:primal_ice_shard"
+    }
+  },
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:primal_ice_necklace"
+  }
+}

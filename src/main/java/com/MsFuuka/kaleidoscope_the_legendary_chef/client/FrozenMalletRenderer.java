@@ -18,7 +18,7 @@ import net.minecraftforge.client.model.data.ModelData;
 
 public final class FrozenMalletRenderer extends BlockEntityWithoutLevelRenderer {
     private static final ResourceLocation ICON = id("item/frozen_mallet");
-    private static final ResourceLocation MODEL = id("block/frozen_mallet");
+    private static final ResourceLocation MODEL = id("block/frozen_mallet/frozen_mallet");
     private static FrozenMalletRenderer instance;
 
     public FrozenMalletRenderer() {

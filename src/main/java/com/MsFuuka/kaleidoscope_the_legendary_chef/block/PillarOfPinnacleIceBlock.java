@@ -3,8 +3,10 @@ package com.MsFuuka.kaleidoscope_the_legendary_chef.block;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.MsFuuka.kaleidoscope_the_legendary_chef.effect.FreezeState;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModBlockEntities;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModBlocks;
+import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModEffects;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
@@ -41,11 +43,12 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public final class PillarOfPinnacleIceBlock extends Block implements EntityBlock {
     public static final int RISE_TICKS = 5;
-    public static final int LIFE_TICKS = 120;
+    public static final int LIFE_TICKS = 160;
     public static final int SINK_TICKS = 20;
-    public static final double FROST_RADIUS = 3.0D;
-    public static final int FROST_RAMP_TICKS = 30;
-    public static final int FROST_FADE_TICKS = 40;
+    public static final double FROSTFALL_RADIUS = 3.0D;
+    public static final int FROSTFALL_VERTICAL = 2;
+    public static final int FROSTFALL_RAMP_TICKS = 30;
+    public static final int FROSTFALL_FADE_TICKS = 40;
     public static final float MODEL_SCALE = 2.0F;
     public static final float STABLE_PROGRESS = 0.9F;
     public static final IntegerProperty ROTATION = IntegerProperty.create("rotation", 0, 7);
@@ -264,6 +267,16 @@ public final class PillarOfPinnacleIceBlock extends Block implements EntityBlock
         return resolvePillarPos(level, aim) != null;
     }
 
+    public static boolean inFrostfallRange(LivingEntity entity, BlockPos center) {
+        double dx = entity.getX() - (center.getX() + 0.5D);
+        double dz = entity.getZ() - (center.getZ() + 0.5D);
+        if (dx * dx + dz * dz > FROSTFALL_RADIUS * FROSTFALL_RADIUS) {
+            return false;
+        }
+        int dy = entity.blockPosition().getY() - center.getY();
+        return dy >= -FROSTFALL_VERTICAL && dy <= FROSTFALL_VERTICAL;
+    }
+
     public static BlockPos resolveAim(Level level, Player player, HitResult crosshair, double reach, float partialTick) {
         if (crosshair instanceof EntityHitResult entityHit) {
             return resolvePillarPos(level, entityHit.getEntity().blockPosition());
@@ -307,6 +320,115 @@ public final class PillarOfPinnacleIceBlock extends Block implements EntityBlock
         launchEntities(level, pillarPos);
         playPillarSound(level, pillarPos);
         return true;
+    }
+
+    public static void shatter(Level level, BlockPos pos) {
+        if (level.isClientSide) {
+            return;
+        }
+        if (!level.getBlockState(pos).is(ModBlocks.PILLAR_OF_PINNACLE_ICE.get())) {
+            return;
+        }
+        level.levelEvent(2001, pos, Block.getId(level.getBlockState(pos)));
+        level.setBlock(pos, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL);
+
+        if (level instanceof ServerLevel server) {
+            iceBurst(server, pos);
+        }
+
+        double cx = pos.getX() + 0.5D;
+        double cy = pos.getY() + 0.5D;
+        double cz = pos.getZ() + 0.5D;
+        for (LivingEntity entity : level.getEntitiesOfClass(LivingEntity.class,
+                new AABB(cx, cy, cz, cx, cy, cz).inflate(FROSTFALL_RADIUS, 2.0D, FROSTFALL_RADIUS))) {
+            if (!(entity instanceof Enemy) && !(entity instanceof Player) && !isTargetDummy(entity)) {
+                continue;
+            }
+            entity.hurt(level.damageSources().freeze(), 5.0F);
+            com.MsFuuka.kaleidoscope_the_legendary_chef.effect.FrostSlowdown.apply(entity, 100);
+            if (com.MsFuuka.kaleidoscope_the_legendary_chef.effect.BitterColdState.isFrostfall(entity)) {
+                com.MsFuuka.kaleidoscope_the_legendary_chef.effect.BitterColdState.clearState(entity);
+                FreezeState.apply(entity);
+            }
+        }
+    }
+
+    private static boolean isTargetDummy(LivingEntity entity) {
+        return "net.mehvahdjukaar.dummmmmmy.common.TargetDummyEntity".equals(entity.getClass().getName());
+    }
+
+    private static void iceBurst(ServerLevel level, BlockPos pos) {
+        double x = pos.getX() + 0.5D;
+        double y = pos.getY() + 1.0D;
+        double z = pos.getZ() + 0.5D;
+        net.minecraft.core.particles.BlockParticleOption ice =
+                new net.minecraft.core.particles.BlockParticleOption(net.minecraft.core.particles.ParticleTypes.BLOCK,
+                        Blocks.ICE.defaultBlockState());
+        net.minecraft.core.particles.BlockParticleOption packed =
+                new net.minecraft.core.particles.BlockParticleOption(net.minecraft.core.particles.ParticleTypes.BLOCK,
+                        Blocks.PACKED_ICE.defaultBlockState());
+        net.minecraft.core.particles.BlockParticleOption snowBlock =
+                new net.minecraft.core.particles.BlockParticleOption(net.minecraft.core.particles.ParticleTypes.BLOCK,
+                        Blocks.SNOW_BLOCK.defaultBlockState());
+
+        level.sendParticles(net.minecraft.core.particles.ParticleTypes.EXPLOSION_EMITTER, x, y, z, 1,
+                0.0D, 0.0D, 0.0D, 0.0D);
+        level.sendParticles(net.minecraft.core.particles.ParticleTypes.EXPLOSION, x, y, z, 3,
+                0.3D, 0.3D, 0.3D, 0.0D);
+
+        level.sendParticles(ice, x, y, z, 120, 1.0D, 1.9D, 1.0D, 0.36D);
+        level.sendParticles(packed, x, y, z, 70, 0.8D, 1.5D, 0.8D, 0.28D);
+        level.sendParticles(snowBlock, x, y - 0.4D, z, 50, 1.2D, 0.4D, 1.2D, 0.16D);
+
+        double[] rings = {1.1D, 1.9D, 2.7D};
+        for (double ring : rings) {
+            int points = (int) (ring * 46.0D);
+            for (int i = 0; i < points; i++) {
+                double angle = (double) i * 2.39996323D + ring;
+                double rx = x + Math.cos(angle) * ring;
+                double rz = z + Math.sin(angle) * ring;
+                level.sendParticles(net.minecraft.core.particles.ParticleTypes.SNOWFLAKE,
+                        rx, pos.getY() + 0.12D, rz, 1,
+                        0.0D, 0.004D, 0.0D, 0.0D);
+                level.sendParticles(net.minecraft.core.particles.ParticleTypes.CLOUD,
+                        rx, pos.getY() + 0.18D, rz, 1,
+                        0.0D, 0.01D, 0.0D, 0.0D);
+            }
+        }
+
+        level.sendParticles(net.minecraft.core.particles.ParticleTypes.SNOWFLAKE, x, y, z,
+                180, 1.7D, 2.6D, 1.7D, 0.18D);
+        level.sendParticles(net.minecraft.core.particles.ParticleTypes.CLOUD, x, y, z,
+                56, 1.4D, 1.8D, 1.4D, 0.09D);
+
+        for (int i = 0; i < 36; i++) {
+            double angle = level.random.nextDouble() * Math.PI * 2.0D;
+            double radius = level.random.nextDouble() * 1.8D;
+            double px = x + Math.cos(angle) * radius;
+            double pz = z + Math.sin(angle) * radius;
+            level.sendParticles(net.minecraft.core.particles.ParticleTypes.END_ROD,
+                    px, pos.getY() + 0.2D, pz, 1,
+                    0.0D, 0.16D + level.random.nextDouble() * 0.1D, 0.0D, 0.0D);
+        }
+
+        for (int i = 0; i < 30; i++) {
+            double angle = level.random.nextDouble() * Math.PI * 2.0D;
+            double radius = level.random.nextDouble() * 2.4D;
+            level.sendParticles(net.minecraft.core.particles.ParticleTypes.SNOWFLAKE,
+                    x + Math.cos(angle) * radius, y + 2.0D + level.random.nextDouble() * 1.2D,
+                    z + Math.sin(angle) * radius, 1,
+                    0.0D, -0.03D, 0.0D, 0.0D);
+        }
+
+        long seed = level.getRandom().nextLong();
+        Holder<SoundEvent> burst = BuiltInRegistries.SOUND_EVENT.wrapAsHolder(ModSounds.ICE_BURST.get());
+        ClientboundSoundPacket packet = new ClientboundSoundPacket(burst, SoundSource.BLOCKS,
+                x, y, z, 1.4F, 1.0F, seed);
+        for (ServerPlayer player : level.getServer().getPlayerList().getPlayers()) {
+            if (player.serverLevel() == level && player.distanceToSqr(x, y, z) < 1024.0D) {
+                player.connection.send(packet);
+            }
+        }
     }
 
     private static void launchEntities(Level level, BlockPos pos) {

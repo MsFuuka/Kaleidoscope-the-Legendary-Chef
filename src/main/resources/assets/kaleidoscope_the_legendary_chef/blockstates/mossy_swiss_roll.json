@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "bite=0,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_first"
+    },
+    "bite=0,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_first",
+      "y": 90
+    },
+    "bite=0,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_first",
+      "y": 180
+    },
+    "bite=0,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_first",
+      "y": 270
+    },
+    "bite=1,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_second"
+    },
+    "bite=1,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_second",
+      "y": 90
+    },
+    "bite=1,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_second",
+      "y": 180
+    },
+    "bite=1,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_second",
+      "y": 270
+    },
+    "bite=2,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_third"
+    },
+    "bite=2,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_third",
+      "y": 90
+    },
+    "bite=2,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_third",
+      "y": 180
+    },
+    "bite=2,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_third",
+      "y": 270
+    },
+    "bite=3,facing=north": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_fourth"
+    },
+    "bite=3,facing=east": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_fourth",
+      "y": 90
+    },
+    "bite=3,facing=south": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_fourth",
+      "y": 180
+    },
+    "bite=3,facing=west": {
+      "model": "kaleidoscope_the_legendary_chef:block/mossy_swiss_roll/mossy_swiss_roll_fourth",
+      "y": 270
+    }
+  }
+}

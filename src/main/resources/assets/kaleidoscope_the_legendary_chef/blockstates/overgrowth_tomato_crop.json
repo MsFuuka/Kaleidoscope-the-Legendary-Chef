@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_first"
+    },
+    "age=1": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_second"
+    },
+    "age=2": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_third"
+    },
+    "age=3": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_fourth"
+    },
+    "age=4": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_fifth"
+    },
+    "age=5": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_sixth"
+    },
+    "age=6": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_seventh"
+    },
+    "age=7": {
+      "model": "kaleidoscope_the_legendary_chef:block/overgrowth_tomato/overgrowth_tomato_stage_eighth"
+    }
+  }
+}

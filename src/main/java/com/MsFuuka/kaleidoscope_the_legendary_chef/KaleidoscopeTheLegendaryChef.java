@@ -2,9 +2,11 @@ package com.MsFuuka.kaleidoscope_the_legendary_chef;
 
 import com.mojang.logging.LogUtils;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.integration.StockpotRecipeEventHandler;
+import com.MsFuuka.kaleidoscope_the_legendary_chef.item.PrimalIceNecklaceItem;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModBlockEntities;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModBlocks;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModCreativeTabs;
+import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModEffects;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModEntities;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModItems;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModRecipes;
@@ -18,6 +20,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import top.theillusivec4.curios.api.CuriosApi;
 
 @Mod(KaleidoscopeTheLegendaryChef.MODID)
 @Mod.EventBusSubscriber(modid = KaleidoscopeTheLegendaryChef.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -31,6 +34,7 @@ public class KaleidoscopeTheLegendaryChef {
         ModBlockEntities.register(modEventBus);
         ModEntities.register(modEventBus);
         ModItems.register(modEventBus);
+        ModEffects.register(modEventBus);
         ModSounds.register(modEventBus);
         ModRecipes.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
@@ -43,5 +47,6 @@ public class KaleidoscopeTheLegendaryChef {
     public static void onCommonSetup(FMLCommonSetupEvent event) {
         ModSoupBases.register();
         ModMessages.register();
+        CuriosApi.registerCurio(ModItems.PRIMAL_ICE_NECKLACE.get(), (PrimalIceNecklaceItem) ModItems.PRIMAL_ICE_NECKLACE.get());
     }
 }

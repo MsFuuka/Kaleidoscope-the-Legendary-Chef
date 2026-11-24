@@ -1,5 +1,6 @@
 package com.MsFuuka.kaleidoscope_the_legendary_chef.block;
 
+import com.MsFuuka.kaleidoscope_the_legendary_chef.item.PrimalIceNecklaceItem;
 import com.MsFuuka.kaleidoscope_the_legendary_chef.registry.ModItems;
 
 import net.minecraft.core.BlockPos;
@@ -46,7 +47,8 @@ public final class PrimordialSmoothieBlock extends PowderSnowBlock {
             entity.clearFire();
         }
         super.entityInside(state, level, pos, entity);
-        if (entity instanceof LivingEntity living && !living.canFreeze()) {
+        if (entity instanceof LivingEntity living && !living.canFreeze()
+                && !PrimalIceNecklaceItem.isWorn(living)) {
             int required = living.getTicksRequiredToFreeze();
             living.setTicksFrozen(required);
             if (!level.isClientSide && living.tickCount % 40 == 0) {

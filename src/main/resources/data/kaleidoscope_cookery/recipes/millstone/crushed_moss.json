@@ -1,0 +1,9 @@
+{
+  "type": "kaleidoscope_cookery:millstone",
+  "ingredient": {
+    "item": "kaleidoscope_the_legendary_chef:tender_green_moss"
+  },
+  "result": {
+    "item": "kaleidoscope_the_legendary_chef:crushed_moss"
+  }
+}

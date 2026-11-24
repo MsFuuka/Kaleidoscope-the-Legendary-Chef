@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "kaleidoscope_the_legendary_chef:block/frostbite_pepper/frostbite_pepper_stage_second"
+  }
+}

@@ -34,7 +34,13 @@ public final class FrozenMalletAimRenderer {
         if (!(player.getMainHandItem().getItem() instanceof FrozenMalletItem)) {
             return;
         }
-        if (!mc.options.keyUse.isDown() || !FrozenMalletInputHandler.canShowAim()) {
+        if (!mc.options.keyUse.isDown() || !player.isUsingItem()) {
+            return;
+        }
+        if (!(player.getUseItem().getItem() instanceof FrozenMalletItem)) {
+            return;
+        }
+        if (72000 - player.getUseItemRemainingTicks() < 3) {
             return;
         }
         if (player.isShiftKeyDown()) {

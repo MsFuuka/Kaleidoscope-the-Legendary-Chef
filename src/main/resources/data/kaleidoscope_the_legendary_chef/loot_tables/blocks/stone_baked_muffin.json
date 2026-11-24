@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_brick_slab"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "kaleidoscope_the_legendary_chef:stone_baked_muffin",
+          "properties": {
+            "bite": "6"
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kaleidoscope_the_legendary_chef:stone_baked_muffin"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:invert",
+          "term": {
+            "condition": "minecraft:block_state_property",
+            "block": "kaleidoscope_the_legendary_chef:stone_baked_muffin",
+            "properties": {
+              "bite": "6"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

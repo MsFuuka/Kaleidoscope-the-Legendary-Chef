@@ -2,7 +2,7 @@
   "sources": [
     {
       "type": "single",
-      "resource": "kaleidoscope_the_legendary_chef:item/frozen_mallet_on_hand"
+      "resource": "kaleidoscope_the_legendary_chef:block/frozen_mallet/frozen_mallet"
     }
   ]
 }
